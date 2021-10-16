@@ -1,13 +1,13 @@
 body{
-    background: rgb(248,255,14);
-background: linear-gradient(90deg, rgba(248,255,14,1) 0%, rgba(255,253,44,1) 19%, rgba(0,255,122,1) 50%, rgba(0,12,255,1) 100%);
+    background: rgb(96,222,227);
+    background: linear-gradient(90deg, rgba(96,222,227,1) 0%, rgba(213,231,33,1) 42%, rgba(193,0,255,1) 100%);
 }
 table { table-layout: fixed;
     width: 100%;;
     border-collapse: collapse;
 }
 td {height: 100px;
-    
+    font-family: sans-serif;
         width: 100px;
         height: 100px;
         
@@ -22,14 +22,14 @@ th { height: 100px;
     border: 1px solid rgb(150, 11, 11);
 }
 tr { 
-    background: rgb(0,255,122);
-    background: linear-gradient(90deg, rgba(0,255,122,1) 0%, rgba(255,44,44,1) 43%, rgba(0,12,255,1) 100%);
+    background: rgb(227,129,96);
+background: linear-gradient(90deg, rgba(227,129,96,1) 0%, rgba(60,205,202,1) 45%, rgba(38,221,87,1) 100%);
     border: 1px solid rgb(150, 11, 11);
  }
  
  td:hover{
-    background: rgb(255,44,44);
-    background: linear-gradient(90deg, rgba(255,44,44,1) 0%, rgba(247,255,0,1) 100%);
+    background: rgb(250,119,2);
+background: linear-gradient(45deg, rgba(250,119,2,1) 0%, rgba(60,205,89,1) 45%, rgba(38,44,221,1) 100%);
  }
 
   td:hover { 
