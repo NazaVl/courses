@@ -2,9 +2,13 @@ body{
     background-color: bisque;
 }
 h1{
+    font-size:300%;
+    font-family: serif;
     text-align-last: center;
 }
 h3{
+    font-size: 170%;
+    font-family: serif;
     text-align-last: center;
 }
 table{
@@ -35,8 +39,16 @@ td a{
     left: 0; right: 0;
     top: 0; bottom: 0;
 }
-p{
+p{  
+    font-size: 170%;
+    font-family: monospace;
     text-align: center;
     margin-top: 235.4px;
+}
+hr{
+    border:none;
+    color:black;
+    background-color:black;
+    height: 1px;
 }
 
