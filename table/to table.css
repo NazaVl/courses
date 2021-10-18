@@ -1,0 +1,29 @@
+.main{ 
+    border-spacing: 30px;
+    width:100%;
+}
+.first{
+    width: 20%;
+    border: 1px solid black;
+    -webkit-box-shadow: 1px 1px 8px 1px #000000; 
+    box-shadow: 1px 1px 8px 1px #000000;
+}
+.second{
+    width: 80%;
+    border: 1px solid black;
+    -webkit-box-shadow: 1px 1px 8px 1px #000000; 
+    box-shadow: 1px 1px 8px 1px #000000;
+}
+.img{
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px; 
+}
+hr{
+    border:none;
+    color:black;
+    background-color:black;
+    height: 1px;
+}
