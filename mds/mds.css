@@ -1,0 +1,39 @@
+.marvel{
+    display: flex;
+}
+#img_text{
+    margin: 30px;
+}
+.DC{
+    display: flex;
+}
+.starwars{
+    display: flex;
+}
+.h1{
+    text-align: center;
+}
+.list{
+    width: 500px;
+    background-color: rgb(13, 13, 121);
+    color: white;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+#list{
+    margin-right:5px;
+    width:20px;
+    height:20px;
+}
+.square{
+    width: 1000px;
+    height: 100px;
+    background-color:rgb(13, 13, 121);
+}
+
+
