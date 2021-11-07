@@ -72,37 +72,36 @@
     float:left;
 }
 .third{
+    display: flex;
+    align-items:center;
     background-color:black;
     width:600px;
     height:200px;
 }
 #t1{
-    display:inline-block;
+    display:flex;
     background-color:rgb(231, 0, 0);
     width:150px;
     height:100px;
-    margin-top:50px; 
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left:37.5px ;
+    align-items:center;
 }
 #t2{
-    display:inline-block;
+    display:flex;
     background-color:green;
     width:150px;
     height:100px;
-    margin-top:50px; 
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 37.5px;
+    align-items:center;
 }
 #t3{
-    margin-top:50px; 
-    margin-left: 25px;
-    margin-right: 25px;
-    display:inline-block;
+    display:flex;
     background-color:blue;
     width:150px;
     height:100px;
+    margin-left: 37.5px;
+    align-items:center;
 }
-p{
-    text-align-last:center ;
+.t1{
+    margin-left: 60px;
 }

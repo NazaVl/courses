@@ -11,33 +11,27 @@ h3{
     font-family: serif;
     text-align-last: center;
 }
-table{
-    margin: auto;
-    width: 60%;
+hr{
+    border:none;
+    color: black;
+    background-color:black;
+    height: 1px;
 }
-td{
-    -webkit-transition: all 0.3s ease;;
-    -moz-transition: all 0.3s ease;;
-    -o-transition: all 0.3s ease;;
-    transition: all 0.3s ease;
-    width: 25%;
-    height: 496.8px;
-    position: relative;
-}
-td:hover{
+a:hover{
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
     border: 1px solid black;
 }
-a{
+a{  
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    width: 180px;
+    height: 496.8px;  
     text-decoration: none;
     color: black;
-}
-td a{
-    position: absolute;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
 }
 p{  
     font-size: 170%;
@@ -45,10 +39,9 @@ p{
     text-align: center;
     margin-top: 235.4px;
 }
-hr{
-    border:none;
-    color:black;
-    background-color:black;
-    height: 1px;
+.web{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
 }
 
