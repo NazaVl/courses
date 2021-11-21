@@ -25,6 +25,9 @@
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
 }
+.list:hover{
+    width: 1000px;
+}
 #list{
     margin-right:5px;
     width:20px;
@@ -32,8 +35,49 @@
 }
 .square{
     width: 1000px;
-    height: 100px;
-    background-color:rgb(13, 13, 121);
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(13, 13, 121);
 }
+#square{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(124, 124, 145);
+    animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: 0.7;
+}
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+.background{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+#cards{
+    width: 400px;
+    height: 400px;
+}
+#c1{
+    width: 300px;
+    object-fit:cover;
+}
+
+
 
 
