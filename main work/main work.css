@@ -1,5 +1,6 @@
 body{
     width: 1440px;
+    height: 70000px;
 }
 .head_top{
     display: flex;
@@ -129,4 +130,38 @@ input{
     display: flex;
     align-items:center;
     justify-content: center;
+}
+.s1{
+    position:absolute;
+    left:200px;
+    top:260px;
+    color: white;
+}
+#s1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 249px;
+    height: 49px;
+    border:1px solid white;
+}
+#s3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 270px;
+    height: 60px;
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.164);
+}
+#s2{
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 500px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    width: 600px;
+    height: 120px;
 }
